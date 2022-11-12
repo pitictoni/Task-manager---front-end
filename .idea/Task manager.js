@@ -13,6 +13,12 @@ function deleteTask(event){
     }
 }
 
+function editTask(event){
+    const id = event.target.id;
+
+    window.location.href = "Task editor.html?id=" + id;
+}
+
 function addRow(task){
 
     const row = document.createElement('tr');
@@ -30,6 +36,7 @@ function addRow(task){
     editImg.src = "Img/edit.jpg";
     editImg.className = "imagineMica";
     editImg.id = task.id;
+    editImg.addEventListener('click',editTask);
     actionTd.appendChild(editImg);
 
     const deleteImg = document.createElement('img');

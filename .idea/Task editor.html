@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="Task%20editor.js"></script>
+    <link rel="stylesheet" href="Task%20editor.css">
 </head>
+
 <body>
-<h1> Eu sunt Task Editor :) </h1>
-    <button onclick="window.location.href='Task manager.html'">
-        Go to task list
-    </button>
+<div class="editTask">
+    <h1> Add/Edit Task  </h1>
+
+    <label>Title:</label>
+    <input type="text" id="title"></input>
+    <br>
+
+    <label>Priority:</label>
+    <input type="text" id="priority"></input>
+    <br>
+
+    <img class = "imagineMica" src="Img/cancel.jpg" onclick="goToTaskList()">
+    <img class = "imagineMica" src="Img/ok.jpg" onclick="addTask()">
+
+
+</div>
+
 </body>
 </html>
