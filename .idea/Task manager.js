@@ -7,8 +7,10 @@ function zeroPadding(nr){
 function deleteTask(event){
     const id = event.target.id;
 
-    fetch('http://localhost:8080/task/delete/+id',{method:'DELETE'});
-    location.reload();
+    if (confirm("Sigur?")){
+        fetch('http://localhost:8080/task/delete/'+ id,{method:'DELETE'});
+        location.reload();
+    }
 }
 
 function addRow(task){
@@ -51,6 +53,10 @@ async function populateTasksTable() {
     for(const task of taskList){
        addRow(task);
     }
+}
+
+function addTestTasks(){
+
 }
 
 window.onload = (event) =>{

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="Apel REST API in care obtinem toate taskurile&#10;se apeleaza dupa incarcarea paginii">
+    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="setam click-ul de pe poza spre functia deletetask&#10;apelam o metoda REST sa facem stergerea, apoi reload pagina">
       <change beforePath="$PROJECT_DIR$/.idea/Task manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <updated>1668240925679</updated>
       <workItem from="1668240927215" duration="4360000" />
       <workItem from="1668249930423" duration="951000" />
-      <workItem from="1668259183206" duration="1546000" />
+      <workItem from="1668259183206" duration="2643000" />
     </task>
     <task id="LOCAL-00001" summary="Fisiere standard de proiect gol">
       <created>1668240958010</created>
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668260546596</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="setam click-ul de pe poza spre functia deletetask&#10;apelam o metoda REST sa facem stergerea, apoi reload pagina">
+      <created>1668261111594</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668261111594</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +206,7 @@
     <MESSAGE value="Functie de adaugare de linie, apelata pe butonul albastru&#10;TODO - linia inca nu contine imaginile cu actiuni" />
     <MESSAGE value="Adaugare de imagini in TD&#10;adaugare de linii pe buton&#10;clasa imagineMica cu CSS" />
     <MESSAGE value="Apel REST API in care obtinem toate taskurile&#10;se apeleaza dupa incarcarea paginii" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apel REST API in care obtinem toate taskurile&#10;se apeleaza dupa incarcarea paginii" />
+    <MESSAGE value="setam click-ul de pe poza spre functia deletetask&#10;apelam o metoda REST sa facem stergerea, apoi reload pagina" />
+    <option name="LAST_COMMIT_MESSAGE" value="setam click-ul de pe poza spre functia deletetask&#10;apelam o metoda REST sa facem stergerea, apoi reload pagina" />
   </component>
 </project>
