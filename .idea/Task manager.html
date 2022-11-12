@@ -5,13 +5,47 @@
     <title>Task manager</title>
 </head>
 <body>
-<h1>Task List </h1>
-<ul>
-    <li>Task 1 : Learn GIT</li>
-    <li>Task 2: Implement HTML page (this one)</li>
-</ul>
+
+<table>
+    <caption>
+        Task List
+    </caption>
+
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Priority</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>T001</td>
+        <td>Learn GIT</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>T002</td>
+        <td>Implement HTML page (this one)</td>
+        <td>8</td>
+    </tr>
+    </tbody>
+
+    <tfoot>
+    <tr>
+        <td>Numar task-uri: 2</td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    </tfoot>
+</table>
+
 <button onclick="window.location.href='Task editor.html'">
     Edit Task
 </button>
+
+
+
 </body>
 </html>
