@@ -4,6 +4,13 @@ function zeroPadding(nr){
     return nr;
 }
 
+function deleteTask(event){
+    const id = event.target.id;
+
+    fetch('http://localhost:8080/task/delete/+id',{method:'DELETE'});
+    location.reload();
+}
+
 function addRow(task){
 
     const row = document.createElement('tr');
@@ -27,6 +34,7 @@ function addRow(task){
     deleteImg.src = "Img/delete.jpg";
     deleteImg.className = "imagineMica";
     deleteImg.id = task.id;
+    deleteImg.addEventListener('click',deleteTask);
     actionTd.appendChild(deleteImg);
 
     row.append(idTd, titleTd, priorityTd, actionTd);
@@ -43,10 +51,6 @@ async function populateTasksTable() {
     for(const task of taskList){
        addRow(task);
     }
-}
-
-function deleteTask(){
-    console.log("Aici sterg un rand");
 }
 
 window.onload = (event) =>{
