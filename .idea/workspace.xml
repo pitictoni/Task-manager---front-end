@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="Am adaugat butoane de edit si delete intr-o celula a tabelului">
+    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="---- Rezolvat problemele legate de ultimele 2 commit-uri ----------&#10;Am adaugat o clasa proprie la butonul Blue si am formatat-o tot de pe net&#10;Am &quot;legat&quot; un fisier JS de Html">
+      <change afterPath="$PROJECT_DIR$/.idea/Task manager.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Task manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -129,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668244757885</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="---- Rezolvat problemele legate de ultimele 2 commit-uri ----------&#10;Am adaugat o clasa proprie la butonul Blue si am formatat-o tot de pe net&#10;Am &quot;legat&quot; un fisier JS de Html">
+      <created>1668246608283</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668246608283</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +165,7 @@
     <MESSAGE value="Am adaugat taskurile in tabel" />
     <MESSAGE value="Am formatat tabelul utilizand CSS" />
     <MESSAGE value="Am adaugat butoane de edit si delete intr-o celula a tabelului" />
-    <option name="LAST_COMMIT_MESSAGE" value="Am adaugat butoane de edit si delete intr-o celula a tabelului" />
+    <MESSAGE value="---- Rezolvat problemele legate de ultimele 2 commit-uri ----------&#10;Am adaugat o clasa proprie la butonul Blue si am formatat-o tot de pe net&#10;Am &quot;legat&quot; un fisier JS de Html" />
+    <option name="LAST_COMMIT_MESSAGE" value="---- Rezolvat problemele legate de ultimele 2 commit-uri ----------&#10;Am adaugat o clasa proprie la butonul Blue si am formatat-o tot de pe net&#10;Am &quot;legat&quot; un fisier JS de Html" />
   </component>
 </project>
