@@ -9,6 +9,15 @@ async function populateTextBoxes(id) {
     priorityTextbox.value = task.priority;
 }
 
+function populateDefaultTextBoxes(){
+    const titleTextbox = document.getElementById('title');
+    const priorityTextbox = document.getElementById('priority');
+
+    titleTextbox.value = "";
+    priorityTextbox.value = "1";
+
+}
+
 function updateOrAddTask(){
     const queryString = window.location.search;
     const params = new URLSearchParams(queryString);
@@ -27,7 +36,15 @@ async function updateTask(id) {
     const title = document.getElementById('title').value;
     const priority = document.getElementById('priority').value;
 
-    const response = await fetch('http://localhost:8080/task/update?id=' + id + "&title" + title + "&priority" + priority, {method: 'PUT'});
+    const response = await fetch('http://localhost:8080/task/update?id=' + id + "&title=" + title + "&priority=" + priority, {method: 'PUT'});
+    goToTaskList();
+}
+
+async function addTask() {
+    const title = document.getElementById('title').value;
+    const priority = document.getElementById('priority').value;
+
+    const response = await fetch('http://localhost:8080/task/add?title=' + title + "&priority=" + priority, {method: 'POST'});
     goToTaskList();
 }
 
@@ -43,4 +60,6 @@ window.onload = (event) =>{
 
     if (id!=0) // s-a intrat de pe Edit, deci trebuie sa punem vechile valori in textboxuri
         populateTextBoxes(id);
+    else
+        populateDefaultTextBoxes();
 }

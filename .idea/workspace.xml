@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="trecere la pagina de editare a taskului cu transmitere de parametru&#10;scod paramentrul din link, il folosesc sa fac un apel REST si populez cu valorile din DB">
-      <change beforePath="$PROJECT_DIR$/.idea/Task editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task editor.html" afterDir="false" />
+    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="u napel de update, inca nu e testat">
       <change beforePath="$PROJECT_DIR$/.idea/Task editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Task manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <updated>1668240925679</updated>
       <workItem from="1668240927215" duration="4360000" />
       <workItem from="1668249930423" duration="951000" />
-      <workItem from="1668259183206" duration="5363000" />
+      <workItem from="1668259183206" duration="7098000" />
     </task>
     <task id="LOCAL-00001" summary="Fisiere standard de proiect gol">
       <created>1668240958010</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668263703973</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="u napel de update, inca nu e testat">
+      <created>1668265130508</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668265130508</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +231,7 @@
     <MESSAGE value="setam click-ul de pe poza spre functia deletetask&#10;apelam o metoda REST sa facem stergerea, apoi reload pagina" />
     <MESSAGE value="Stergere de task" />
     <MESSAGE value="trecere la pagina de editare a taskului cu transmitere de parametru&#10;scod paramentrul din link, il folosesc sa fac un apel REST si populez cu valorile din DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="trecere la pagina de editare a taskului cu transmitere de parametru&#10;scod paramentrul din link, il folosesc sa fac un apel REST si populez cu valorile din DB" />
+    <MESSAGE value="u napel de update, inca nu e testat" />
+    <option name="LAST_COMMIT_MESSAGE" value="u napel de update, inca nu e testat" />
   </component>
 </project>
