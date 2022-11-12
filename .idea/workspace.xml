@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="Functie de adaugare de linie, apelata pe butonul albastru&#10;TODO - linia inca nu contine imaginile cu actiuni">
-      <change beforePath="$PROJECT_DIR$/.idea/Task manager.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.css" afterDir="false" />
+    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="Adaugare de imagini in TD&#10;adaugare de linii pe buton&#10;clasa imagineMica cu CSS">
       <change beforePath="$PROJECT_DIR$/.idea/Task manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Task manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -76,6 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668240925679</updated>
       <workItem from="1668240927215" duration="4360000" />
+      <workItem from="1668249930423" duration="951000" />
+      <workItem from="1668259183206" duration="1165000" />
     </task>
     <task id="LOCAL-00001" summary="Fisiere standard de proiect gol">
       <created>1668240958010</created>
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668248222110</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adaugare de imagini in TD&#10;adaugare de linii pe buton&#10;clasa imagineMica cu CSS">
+      <created>1668249101759</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668249101759</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +191,7 @@
     <MESSAGE value="---- Rezolvat problemele legate de ultimele 2 commit-uri ----------&#10;Am adaugat o clasa proprie la butonul Blue si am formatat-o tot de pe net&#10;Am &quot;legat&quot; un fisier JS de Html" />
     <MESSAGE value="Ar rulat &quot;automat&quot; o functia addRows la incarcarea paginii&#10;Am facut functia deleteTask&#10;&#10;verificarea lor se face in consola, la depanarea paginii in Chrome cu F12" />
     <MESSAGE value="Functie de adaugare de linie, apelata pe butonul albastru&#10;TODO - linia inca nu contine imaginile cu actiuni" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functie de adaugare de linie, apelata pe butonul albastru&#10;TODO - linia inca nu contine imaginile cu actiuni" />
+    <MESSAGE value="Adaugare de imagini in TD&#10;adaugare de linii pe buton&#10;clasa imagineMica cu CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adaugare de imagini in TD&#10;adaugare de linii pe buton&#10;clasa imagineMica cu CSS" />
   </component>
 </project>

@@ -1,5 +1,10 @@
-function addRow(){
-    console.log("Adaug un rand in tabel");
+function zeroPadding(nr){
+    if (nr>=0 && nr<=9) return "00"+nr;
+    if (nr>=10 && nr<=99) return "0"+nr;
+    return nr;
+}
+
+function addRow(task){
 
     const row = document.createElement('tr');
 
@@ -8,18 +13,20 @@ function addRow(){
     const priorityTd = document.createElement('td');
     const actionTd = document.createElement('td');
 
-    idTd.innerHTML = "55";
-    titleTd.innerHTML = "Linie adaugata din JS";
-    priorityTd.innerHTML = "8";
+    idTd.innerHTML = "TASK" + zeroPadding(task.id);
+    titleTd.innerHTML = task.title;
+    priorityTd.innerHTML = task.priority;
 
     const editImg = document.createElement('img');
     editImg.src = "Img/edit.jpg";
     editImg.className = "imagineMica";
+    editImg.id = task.id;
     actionTd.appendChild(editImg);
 
     const deleteImg = document.createElement('img');
     deleteImg.src = "Img/delete.jpg";
     deleteImg.className = "imagineMica";
+    deleteImg.id = task.id;
     actionTd.appendChild(deleteImg);
 
     row.append(idTd, titleTd, priorityTd, actionTd);
@@ -29,9 +36,19 @@ function addRow(){
     tasksTable.appendChild(row);
 }
 
+async function populateTasksTable() {
+    const response = await fetch('http://localhost:8080/task/all');
+    const taskList = await response.json();
+
+    for(const task of taskList){
+       addRow(task);
+    }
+}
+
 function deleteTask(){
     console.log("Aici sterg un rand");
 }
+
 window.onload = (event) =>{
-    //addRows();
+    populateTasksTable();
 }
