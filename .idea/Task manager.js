@@ -11,13 +11,22 @@ function addRow(){
     idTd.innerHTML = "55";
     titleTd.innerHTML = "Linie adaugata din JS";
     priorityTd.innerHTML = "8";
-    actionTd.innerHTML = "Aici o sa fie imaginile";
+
+    const editImg = document.createElement('img');
+    editImg.src = "Img/edit.jpg";
+    editImg.className = "imagineMica";
+    actionTd.appendChild(editImg);
+
+    const deleteImg = document.createElement('img');
+    deleteImg.src = "Img/delete.jpg";
+    deleteImg.className = "imagineMica";
+    actionTd.appendChild(deleteImg);
 
     row.append(idTd, titleTd, priorityTd, actionTd);
 
     const tasksTable = document.getElementById('tasksTable');
 
-    tasksTable.append(row);
+    tasksTable.appendChild(row);
 }
 
 function deleteTask(){
