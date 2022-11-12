@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="Am adaugat butoane de edit si delete intr-o celula a tabelului">
-      <change afterPath="$PROJECT_DIR$/.idea/Img/cancel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Img/delete.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Img/edit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Img/ok.jpg" afterDir="false" />
+    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="Am furat o formatare de  pe https://getcssscan.com/css-buttons-examples">
+      <change afterPath="$PROJECT_DIR$/.idea/Task manager.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Task manager.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Task manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -23,6 +20,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -76,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668240925679</updated>
-      <workItem from="1668240927215" duration="4360000" />
+      <workItem from="1668240927215" duration="5039000" />
     </task>
     <task id="LOCAL-00001" summary="Fisiere standard de proiect gol">
       <created>1668240958010</created>
@@ -134,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668244757885</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Am schimbat butoanele din tabel cu imagini&#10;nice :)">
+      <created>1668245401922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668245401922</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Am furat o formatare de  pe https://getcssscan.com/css-buttons-examples">
+      <created>1668245437255</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668245437255</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +172,8 @@
     <MESSAGE value="Am adaugat taskurile in tabel" />
     <MESSAGE value="Am formatat tabelul utilizand CSS" />
     <MESSAGE value="Am adaugat butoane de edit si delete intr-o celula a tabelului" />
-    <option name="LAST_COMMIT_MESSAGE" value="Am adaugat butoane de edit si delete intr-o celula a tabelului" />
+    <MESSAGE value="Am schimbat butoanele din tabel cu imagini&#10;nice :)" />
+    <MESSAGE value="Am furat o formatare de  pe https://getcssscan.com/css-buttons-examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Am furat o formatare de  pe https://getcssscan.com/css-buttons-examples" />
   </component>
 </project>
