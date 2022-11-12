@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="Am adaugat taskurile in tabel">
-      <change afterPath="$PROJECT_DIR$/.idea/Task manager.css" afterDir="false" />
+    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="Am formatat tabelul utilizand CSS">
       <change beforePath="$PROJECT_DIR$/.idea/Task manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668240925679</updated>
-      <workItem from="1668240927215" duration="3309000" />
+      <workItem from="1668240927215" duration="3691000" />
     </task>
     <task id="LOCAL-00001" summary="Fisiere standard de proiect gol">
       <created>1668240958010</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668243455845</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Am formatat tabelul utilizand CSS">
+      <created>1668244424746</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668244424746</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +139,7 @@
     <MESSAGE value="Salt de pe o pagina la alta" />
     <MESSAGE value="Saltul &quot;inapoi&quot;" />
     <MESSAGE value="Am adaugat taskurile in tabel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Am adaugat taskurile in tabel" />
+    <MESSAGE value="Am formatat tabelul utilizand CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Am formatat tabelul utilizand CSS" />
   </component>
 </project>

@@ -17,6 +17,7 @@
         <th>ID</th>
         <th>Title</th>
         <th>Priority</th>
+        <th>Action</th>
     </tr>
     </thead>
 
@@ -25,11 +26,28 @@
         <td>T001</td>
         <td>Learn GIT</td>
         <td>1</td>
+        <td>
+            <button onclick="window.location.href='Task editor.html'">
+                Edit Task
+            </button>
+            <button onclick="deleteTask()">
+                Delete
+            </button>
+        </td>
+
     </tr>
     <tr>
         <td>T002</td>
         <td>Implement HTML page (this one)</td>
         <td>8</td>
+        <td>
+            <button onclick="window.location.href='Task editor.html'">
+                Edit Task
+            </button>
+            <button onclick="deleteTask()">
+                Delete
+            </button>
+        </td>
     </tr>
     </tbody>
 
@@ -38,12 +56,13 @@
         <td>Numar task-uri: 2</td>
         <td> </td>
         <td> </td>
+        <td> </td>
     </tr>
     </tfoot>
 </table>
 
 <button onclick="window.location.href='Task editor.html'">
-    Edit Task
+    Add new Task
 </button>
 
 
