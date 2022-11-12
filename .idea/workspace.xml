@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="---- Rezolvat problemele legate de ultimele 2 commit-uri ----------&#10;Am adaugat o clasa proprie la butonul Blue si am formatat-o tot de pe net&#10;Am &quot;legat&quot; un fisier JS de Html">
-      <change afterPath="$PROJECT_DIR$/.idea/Task manager.js" afterDir="false" />
+    <list default="true" id="58d29e13-8105-4a78-9efe-45a2637384c0" name="Changes" comment="Ar rulat &quot;automat&quot; o functia addRows la incarcarea paginii&#10;Am facut functia deleteTask&#10;&#10;verificarea lor se face in consola, la depanarea paginii in Chrome cu F12">
       <change beforePath="$PROJECT_DIR$/.idea/Task manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Task manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Task manager.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668246608283</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ar rulat &quot;automat&quot; o functia addRows la incarcarea paginii&#10;Am facut functia deleteTask&#10;&#10;verificarea lor se face in consola, la depanarea paginii in Chrome cu F12">
+      <created>1668247257961</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668247257961</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +173,7 @@
     <MESSAGE value="Am formatat tabelul utilizand CSS" />
     <MESSAGE value="Am adaugat butoane de edit si delete intr-o celula a tabelului" />
     <MESSAGE value="---- Rezolvat problemele legate de ultimele 2 commit-uri ----------&#10;Am adaugat o clasa proprie la butonul Blue si am formatat-o tot de pe net&#10;Am &quot;legat&quot; un fisier JS de Html" />
-    <option name="LAST_COMMIT_MESSAGE" value="---- Rezolvat problemele legate de ultimele 2 commit-uri ----------&#10;Am adaugat o clasa proprie la butonul Blue si am formatat-o tot de pe net&#10;Am &quot;legat&quot; un fisier JS de Html" />
+    <MESSAGE value="Ar rulat &quot;automat&quot; o functia addRows la incarcarea paginii&#10;Am facut functia deleteTask&#10;&#10;verificarea lor se face in consola, la depanarea paginii in Chrome cu F12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ar rulat &quot;automat&quot; o functia addRows la incarcarea paginii&#10;Am facut functia deleteTask&#10;&#10;verificarea lor se face in consola, la depanarea paginii in Chrome cu F12" />
   </component>
 </project>
